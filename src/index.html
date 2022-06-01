@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+</head>
+
+<body>
+    <section class="chat">
+        <div class="chat_main">
+            <aside class="chat_members">
+                <ul class="chat_members_list">
+                    <li class="chat_member chat_member_you">никого...</li>
+                </ul>
+            </aside>
+            <div class="chat_window">
+                <div class="chat_messages">
+                </div>
+                <form class="chat_form">
+                    <input type="text" class="chat_input" placeholder="Напишите сообщение...">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div data-widget="modal" class='modal' id="modal-login">
+        <h3>Введите логин</h3>
+        <form data-id="modal-form">
+            <input data-id="name" name="name" class="input" required>
+            <div class="controlModal">
+                <button data-sends="modal" class="btn okModal">Продолжить</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
